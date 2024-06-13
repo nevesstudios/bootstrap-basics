@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Seven's Bootstrap Blog</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row text-center" id="row-banner">
+                <h1 id="h-banner">Seven's Blog</h1>
+            </div>
+
+            <div class="row" id="row-content">
+                <div class="col-2" id="col-nav">
+                    <div class="row row-nav-header">
+                        <div class="col text-center">
+                            <h3 id="table-of-contents">Contents</h3>
+                        </div>
+                    </div>
+                    <div class="row row-nav-item">
+                        <div class="col">
+                            <a data-bs-toggle="collapse" href="#first-post" role="button" aria-expanded="false" aria-controls="first-post">
+                                First Post!
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row row-nav-item">
+                        <div class="col">
+                            <a data-bs-toggle="collapse" href="#second-post" role="button" aria-expanded="false" aria-controls="second-post">
+                                Second Post!
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row row-nav-item">
+                        <div class="col">
+                            <a data-bs-toggle="collapse" href="#third-post" role="button" aria-expanded="false" aria-controls="third-post">
+                                Third Post!
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row row-nav-item">
+                        <div class="col">
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="first-post second-post third-post">
+                                All Posts!
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-10" id="col-content">
+                    <div class="row">
+                        <div class="collapse multi-collapse" id="first-post">
+                            <div class="post">
+                                <h2 class="post-heading">First Post</h2>
+                                <h6 class="date">5/24/2024</h6>
+                                <p>I made a blog and I just posted about it!</p>
+                            </div>
+                        </div>
+                        <div class="collapse multi-collapse" id="second-post">
+                            <div class="post">
+                                <h2 class="post-heading">Second Post</h2>
+                                <h6 class="date">5/24/2024</h6>
+                                <p>I made another!</p>
+                            </div>
+                        </div>
+                        <div class="collapse multi-collapse" id="third-post">
+                            <div class="post">
+                                <h2 class="post-heading">Third Post</h2>
+                                <h6 class="date">5/24/2024</h6>
+                                <p>I can't stop posting!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row text-end" id="row-footer">
+                <p>&copy Neves Studios 2024</p>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>

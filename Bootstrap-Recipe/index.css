@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(224, 224, 224);
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+table {
+    background-color: #AAAAAA;
+}
+
+ol {
+    background-color: rgb(232, 242, 51);
+}
+
+ul {
+    background-color: rgb(99, 99, 99);
+    color: rgb(255, 255, 255);
+}
+
+img {
+    background-color: #000000;
+}
+
+#banner {
+    background-color: #555555;
+    color: #FFFFFF;
+}
+
+#nav {
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+#col-content {
+    background-color: #3A3A3A;
+}
+
+.steps {
+    background-color: rgb(39, 199, 214);
+}
+
+.accordion-item {
+    background-color: #CCCCCC;
+}
+
+.footer {
+    background-color: #333333;
+}

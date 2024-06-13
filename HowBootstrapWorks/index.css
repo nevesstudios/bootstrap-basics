@@ -1,0 +1,183 @@
+body {
+    background-color: darkgray;
+    color: black;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+small {
+    text-decoration-line: underline;
+}
+
+.row {
+    background-color: steelblue;
+}
+
+.row a {
+    color: black;
+}
+
+.container-fluid {
+    background-color: yellow;
+}
+
+.container {
+    background-color: #00FF00;
+}
+
+.container-sm {
+    background-color: #770000;
+    color: #FFFFFF;
+}
+
+.container-md {
+    background-color: #990000;
+    color: #FFFFFF;
+}
+
+.container-lg {
+    background-color: #BB0000;
+    color: #FFFFFF;
+}
+
+.container-xl {
+    background-color: #DD0000;
+    color: #FFFFFF;
+}
+
+.container-xxl {
+    background-color: #FF0000;
+    color: #FFFFFF;
+}
+
+.col-1 {
+    background-color: #555555;
+    border: 2px;
+    border-style: solid;
+}
+
+.col-2 {
+    background-color: #777777;
+    border: 2px;
+    border-style: solid;
+}
+
+.col-3 {
+    background-color: #999999;
+    border: 2px;
+    border-style: solid;
+}
+
+.col-4 {
+    background-color: #BBBBBB;
+    border: 2px;
+    border-style: solid;
+}
+
+.col-5 {
+    background-color: #DDDDDD;
+    border: 2px;
+    border-style: solid;
+}
+
+.col-6 {
+    background-color: #FFFFFF;
+    border: 2px;
+    border-style: solid;
+}
+
+.col-7 {
+    background-color: #444444;
+    border: 2px;
+    border-style: solid;
+}
+
+.col-8 {
+    background-color: #666666;
+    border: 2px;
+    border-style: solid;
+}
+
+.col-9 {
+    background-color: #888888;
+    border: 2px;
+    border-style: solid;
+}
+
+.col-10 {
+    background-color: #AAAAAA;
+    border: 2px;
+    border-style: solid;
+}
+
+.col-11 {
+    background-color: #CCCCCC;
+    border: 2px;
+    border-style: solid;
+}
+
+.col-12 {
+    background-color: #EEEEEE;
+    border: 2px;
+    border-style: solid;
+}
+
+.col-sm-1 {
+    background-color: #555555;
+    border: 2px;
+    border-style: solid;
+}
+
+.col-md-1 {
+    background-color: #777777;
+    border: 2px;
+    border-style: solid;
+}
+
+.col-lg-1 {
+    background-color: #999999;
+    border: 2px;
+    border-style: solid;
+}
+
+.col-xl-1 {
+    background-color: #BBBBBB;
+    border: 2px;
+    border-style: solid;
+}
+
+.col-xxl-1 {
+    background-color: #DDDDDD;
+    border: 2px;
+    border-style: solid;
+}
+
+.col-sm-2 {
+    background-color: #FFFFFF;
+    border: 2px;
+    border-style: solid;
+}
+
+.col-md-2 {
+    background-color: #444444;
+    border: 2px;
+    border-style: solid;
+}
+
+.col-lg-2 {
+    background-color: #666666;
+    border: 2px;
+    border-style: solid;
+}
+
+.col-xl-2 {
+    background-color: #888888;
+    border: 2px;
+    border-style: solid;
+}
+
+.col-xxl-2 {
+    background-color: #AAAAAA;
+    border: 2px;
+    border-style: solid;
+}
